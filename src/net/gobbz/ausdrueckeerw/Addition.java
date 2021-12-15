@@ -17,7 +17,9 @@ public class Addition extends Operation
 		return ret;
 	}
 	public String toString() {
-		String ret = null;
+		String ret = "(" + this.getOperand(0).getErgebnis()
+				+ "+" + this.getOperand(1).getErgebnis() + "="
+				+ this.getErgebnis() + ")";
 		
 		return ret;	
 	}
